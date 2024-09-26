@@ -1,5 +1,5 @@
-A=input("輸入變數1:")
-B=input("輸入變數2:")
-a=B
-b=A
-print("A=",a,"B=",b)
+Long=int(input("輸⼊矩形的⻑："))
+Short=int(input("輸⼊矩形的寬："))
+S=Long*Short
+A=(Long+Short)*2
+print("面積為:",S,"周長為:",A)
